@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var listaElementi: ArrayList<Data> = ArrayList()
+        var listaElementi: MutableList<Data> = mutableListOf()
         listaElementi.add(Data("happy_kid",R.drawable.paesaggio1,"pernacchia"))
         listaElementi.add(Data("happy_kid",R.drawable.paesaggio2,"pernacchia"))
         listaElementi.add(Data("happy_kid",R.drawable.paesaggio3,"pernacchia"))

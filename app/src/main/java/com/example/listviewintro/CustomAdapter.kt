@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 
-class CustomAdapter(val listaElementi: ArrayList<Data>) : BaseAdapter() {
+class CustomAdapter(val listaElementi: MutableList<Data>) : BaseAdapter() {
     override fun getCount() = listaElementi.size
 
     override fun getItem(position: Int) = listaElementi[position]
